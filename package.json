@@ -15,7 +15,8 @@
     "start": "ts-node",
     "puzzleOne": "ts-node src/dayOne/puzzleOne",
     "puzzleTwo": "ts-node src/dayTwo/puzzleTwo",
-    "watchPuzzleOne": "nodemon src/dayOne/puzzleOne"
+    "watchPuzzleOne": "nodemon src/dayOne/puzzleOne",
+    "watchPuzzleTwo": "nodemon src/dayTwo/puzzleTwo"
   },
   "repository": {
     "type": "git",
