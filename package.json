@@ -13,10 +13,12 @@
   },
   "scripts": {
     "start": "ts-node",
-    "puzzleOne": "ts-node src/dayOne/puzzleOne",
-    "puzzleTwo": "ts-node src/dayTwo/puzzleTwo",
-    "watchPuzzleOne": "nodemon src/dayOne/puzzleOne",
-    "watchPuzzleTwo": "nodemon src/dayTwo/puzzleTwo"
+    "puzzleOne": "ts-node src/01-dayOne/puzzleOne",
+    "puzzleTwo": "ts-node src/02-dayTwo/puzzleTwo",
+    "puzzleThree": "ts-node src/03-dayThree/puzzleThree",
+    "watchPuzzleOne": "nodemon src/01-dayOne/puzzleOne",
+    "watchPuzzleTwo": "nodemon src/02-dayTwo/puzzleTwo",
+    "watchPuzzleThree": "nodemon src/03-dayThree/puzzleThree"
   },
   "repository": {
     "type": "git",
