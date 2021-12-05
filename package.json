@@ -16,9 +16,11 @@
     "puzzleOne": "ts-node src/01-dayOne/puzzleOne",
     "puzzleTwo": "ts-node src/02-dayTwo/puzzleTwo",
     "puzzleThree": "ts-node src/03-dayThree/puzzleThree",
+    "puzzleFour": "ts-node src/04-dayFour/puzzleFour",
     "watchPuzzleOne": "nodemon src/01-dayOne/puzzleOne",
     "watchPuzzleTwo": "nodemon src/02-dayTwo/puzzleTwo",
-    "watchPuzzleThree": "nodemon src/03-dayThree/puzzleThree"
+    "watchPuzzleThree": "nodemon src/03-dayThree/puzzleThree",
+    "watchPuzzleFour": "nodemon src/04-dayFour/puzzleFour"
   },
   "repository": {
     "type": "git",
