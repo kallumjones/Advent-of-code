@@ -17,6 +17,8 @@
     "puzzleTwo": "ts-node src/02-dayTwo/puzzleTwo",
     "puzzleThree": "ts-node src/03-dayThree/puzzleThree",
     "puzzleFour": "ts-node src/04-dayFour/puzzleFour",
+    "puzzleFive": "ts-node src/05-dayFive/puzzleFive",
+    "puzzleSix": "ts-node src/06-daySix/puzzleSix",
     "watchPuzzleOne": "nodemon src/01-dayOne/puzzleOne",
     "watchPuzzleTwo": "nodemon src/02-dayTwo/puzzleTwo",
     "watchPuzzleThree": "nodemon src/03-dayThree/puzzleThree",
