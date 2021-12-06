@@ -10,9 +10,6 @@ const newDay = (fishes:number[], days: number): number => {
     // console.log(firstBabyIndex);
     while (currentDay < days) {
         const newFish:number[] = fishes.map(fish => fish - 1 < 0 ? 6: fish - 1);
-        // console.log('the currnet day', currentDay);
-        // console.log(fishes);
-        // console.log(newFish);
 
         const newFirstBabyIndex:number = newFish.lastIndexOf(0);
 
@@ -36,7 +33,7 @@ const newDay = (fishes:number[], days: number): number => {
 
 // console.log(newDay(puzzleSixInput,256));
 
-//can I make it an object??
+//part 2, now works for part 1 too
 
 interface Fishes {
     [key: string]: number; 
@@ -61,8 +58,6 @@ const newDayObject = (fishes:number[], days: number): Fishes => {
     }
 
     let currentDay:number = 0;
-    // let firstBabyIndex:number = fishes.length - 1;
-    // // console.log(firstBabyIndex);
     while (currentDay < days) {
         const babyFish = fishCount[0];
 
@@ -81,10 +76,6 @@ const newDayObject = (fishes:number[], days: number): Fishes => {
     }
     return fishCount;
 }
-
-
-//5,6,5,3,4,5,6,7,7,8
-//2,3,2,0,1,2,3,4,4,5,2,3,4,4,4,5,5,6,6,7
 
 const totalFishCount:Fishes = newDayObject(puzzleSixInput,256);
 
