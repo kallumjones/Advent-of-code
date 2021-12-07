@@ -19,6 +19,9 @@
     "puzzleFour": "ts-node src/04-dayFour/puzzleFour",
     "puzzleFive": "ts-node src/05-dayFive/puzzleFive",
     "puzzleSix": "ts-node src/06-daySix/puzzleSix",
+
+    "puzzleSeven": "ts-node src/07-daySeven/puzzleSeven",
+
     "watchPuzzleOne": "nodemon src/01-dayOne/puzzleOne",
     "watchPuzzleTwo": "nodemon src/02-dayTwo/puzzleTwo",
     "watchPuzzleThree": "nodemon src/03-dayThree/puzzleThree",
