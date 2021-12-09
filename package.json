@@ -21,6 +21,7 @@
     "puzzleSix": "ts-node src/06-daySix/puzzleSix",
 
     "puzzleSeven": "ts-node src/07-daySeven/puzzleSeven",
+    "puzzleEight": "ts-node src/08-SevenSegmentSearch/SevenSegmentSearch",
 
     "watchPuzzleOne": "nodemon src/01-dayOne/puzzleOne",
     "watchPuzzleTwo": "nodemon src/02-dayTwo/puzzleTwo",
