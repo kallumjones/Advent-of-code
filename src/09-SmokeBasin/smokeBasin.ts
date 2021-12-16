@@ -56,8 +56,8 @@ const calculateRisk = (input:Map):number => {
 //part 2 basin
 
 const isEnd = (row:number, col:number,res:number):number => {
-    let result = res;
-    let currentRes = res;
+    let result:number = res;
+    let currentRes:number = res;
 
     // console.log('here',smokeBasinInput[row][col], row, col);
 

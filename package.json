@@ -23,6 +23,8 @@
     "puzzleSeven": "ts-node src/07-daySeven/puzzleSeven",
     "puzzleEight": "ts-node src/08-SevenSegmentSearch/SevenSegmentSearch",
     "puzzleNine": "ts-node src/09-SmokeBasin/smokeBasin",
+    "puzzleTen": "ts-node src/10-syntaxScoring/syntaxScoring",
+    "puzzleEleven": "ts-node src/11-dumboOctopus/dumboOctopus",
 
     "watchPuzzleOne": "nodemon src/01-dayOne/puzzleOne",
     "watchPuzzleTwo": "nodemon src/02-dayTwo/puzzleTwo",
